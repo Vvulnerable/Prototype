@@ -14,6 +14,12 @@ public class Interactor : MonoBehaviour
 
     private IInteractable _interactable;
 
+    private Inventory inventory;
+
+    private void Start()
+    {
+        inventory = GetComponent<Inventory>();
+    }
     private void Update()
     {
         numFound = Physics.OverlapSphereNonAlloc(interactionPoint.position, interactionRange, _colliders, interactableMask);
@@ -40,6 +46,19 @@ public class Interactor : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(interactionPoint.position, interactionRange);
-    } 
+    }
+    public void InteractWith(IInteractable interactable)
+    {
+        if (interactable.Interact(this))
+        {
+            // Check if the interactable is also a clue provider
+            if (interactable is IClueProvider clueProvider)
+            {
+                Clue clue = clueProvider.GetClue();
+                inventory.AddClue(clue);
+            }
+        }
+    }
+
 
 }

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5294594045596313435}
   - component: {fileID: 3847143916653285682}
   m_Layer: 6
-  m_Name: Clue
+  m_Name: Clue3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -63,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 73666b9f6b1ebe34781faa306a60a706, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -119,5 +119,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clueDetails:
-    clueID: Clue1
+    clueID: Clue3
     description: 

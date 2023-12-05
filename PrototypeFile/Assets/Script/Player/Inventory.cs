@@ -19,4 +19,8 @@ public class Inventory : MonoBehaviour
     {
         return mission.IsCompleted(clues);
     }
+    public Clue GetClueById(string clueID)
+    {
+        return clues.FirstOrDefault(clue => clue.clueID == clueID);
+    }
 }

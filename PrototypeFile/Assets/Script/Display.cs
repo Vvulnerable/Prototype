@@ -5,7 +5,7 @@ using System.Collections;
 public class DebugDisplay : MonoBehaviour
 {
     public Text legacyText; // Reference to the Legacy Text component
-    public float displayDuration = 2f; // Duration in seconds to display the text
+    public float displayDuration = 5f; // Duration in seconds to display the text
 
     void Start()
     {

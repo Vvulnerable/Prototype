@@ -5388,15 +5388,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2431433586566520866, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
       propertyPath: npcName
-      value: Granny
+      value: Kevin
       objectReference: {fileID: 0}
     - target: {fileID: 2431433586566520866, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
       propertyPath: conversations.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2431433586566520866, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
       propertyPath: conversations.Array.data[0]
-      value: Maybe he is on your left
+      value: 'Kevin: hey what''s going on'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431433586566520866, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
+      propertyPath: conversations.Array.data[1]
+      value: 'You: Finding my dad, you know where he is?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431433586566520866, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
+      propertyPath: conversations.Array.data[2]
+      value: 'Kevin: Oh he left a note in this chest on your left'
       objectReference: {fileID: 0}
     - target: {fileID: 7792690356741678578, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
       propertyPath: m_Name
@@ -8442,7 +8450,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2431433586566520866, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
       propertyPath: npcName
-      value: Uncle
+      value: Uncle Meat
       objectReference: {fileID: 0}
     - target: {fileID: 2431433586566520866, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
       propertyPath: conversations.Array.size
@@ -9979,75 +9987,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -944644646735146315, guid: 6a563b1940ee6114d996fd8daeb3e431, type: 3}
---- !u!1001 &323423942
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1252732811580633860, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 17.64
-      objectReference: {fileID: 0}
-    - target: {fileID: 1252732811580633860, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 56.27
-      objectReference: {fileID: 0}
-    - target: {fileID: 1252732811580633860, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 142.84
-      objectReference: {fileID: 0}
-    - target: {fileID: 1252732811580633860, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1252732811580633860, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1252732811580633860, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1252732811580633860, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1252732811580633860, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1252732811580633860, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1252732811580633860, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2431433586566520866, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
-      propertyPath: npcName
-      value: Dad's best friend
-      objectReference: {fileID: 0}
-    - target: {fileID: 2431433586566520866, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
-      propertyPath: conversations.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2431433586566520866, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
-      propertyPath: conversations.Array.data[0]
-      value: Go home and do your homework
-      objectReference: {fileID: 0}
-    - target: {fileID: 7792690356741678578, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
-      propertyPath: m_Name
-      value: TalkingNPC (3)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
 --- !u!1 &323822486 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5711858914781709284, guid: 6a563b1940ee6114d996fd8daeb3e431, type: 3}
@@ -11215,8 +11154,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2431433586566520866, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
       propertyPath: conversations.Array.data[0]
-      value: Your dad is taking so long, I'm worry, can you go check for him on the
-        top of the mountain
+      value: 'Mom: Your dad is taking so long, I''m worry, can you go check for him
+        on the top of the mountain'
       objectReference: {fileID: 0}
     - target: {fileID: 7792690356741678578, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
       propertyPath: m_Name
@@ -12883,11 +12822,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2431433586566520866, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
       propertyPath: conversations.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2431433586566520866, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
       propertyPath: conversations.Array.data[0]
-      value: What are you doing here my children
+      value: 'Dad: what are you doing here?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431433586566520866, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
+      propertyPath: conversations.Array.data[1]
+      value: 'You: that''s mine to ask'
       objectReference: {fileID: 0}
     - target: {fileID: 7792690356741678578, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
       propertyPath: m_Name
@@ -18527,7 +18470,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 545669808}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.11559233, y: 0.000000034182086, z: -0.0000000039778514, w: 0.9932968}
+  m_LocalRotation: {x: 0.11559233, y: -0.00000003418209, z: 0.000000003977852, w: 0.9932968}
   m_LocalPosition: {x: -0.2563076, y: 3.399229, z: -5.103685}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -39846,15 +39789,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2431433586566520866, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
       propertyPath: conversations.Array.size
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2431433586566520866, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
       propertyPath: conversations.Array.data[0]
-      value: Go find your dad maybe he is at the end of the street
+      value: 'Billy: Go find your dad bro'
       objectReference: {fileID: 0}
     - target: {fileID: 2431433586566520866, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
       propertyPath: conversations.Array.data[1]
-      value: LmaoLmao
+      value: 'You: What he is gone again?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431433586566520866, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
+      propertyPath: conversations.Array.data[2]
+      value: 'Billy: Yes'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431433586566520866, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
+      propertyPath: conversations.Array.data[3]
+      value: 'You: So where could he be?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431433586566520866, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
+      propertyPath: conversations.Array.data[4]
+      value: 'Billy: Might be at the end of the street'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431433586566520866, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
+      propertyPath: conversations.Array.data[5]
+      value: 'You: OK'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7744818221364766405, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7792690356741678578, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
       propertyPath: m_Name
@@ -47461,7 +47424,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1058212795}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.11559233, y: 0.00000001709104, z: -0.0000000019889252, w: 0.99329674}
+  m_LocalRotation: {x: 0.11559233, y: -0.000000017091047, z: 0.0000000019889261, w: 0.99329674}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -100579,5 +100542,4 @@ SceneRoots:
   - {fileID: 666161887}
   - {fileID: 685457025}
   - {fileID: 94952316}
-  - {fileID: 323423942}
   - {fileID: 353617421}

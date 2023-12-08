@@ -18,7 +18,7 @@ public class NPC : MonoBehaviour, IInteractable
         }
 
         // Display the current line of conversation
-        Debug.Log($"{npcName}: {conversations[currentConversationIndex]}");
+        Debug.Log($" {conversations[currentConversationIndex]}");
 
         // Move to the next line of conversation, looping back if at the end
         currentConversationIndex = (currentConversationIndex + 1) % conversations.Length;

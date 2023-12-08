@@ -16,7 +16,7 @@ public class ClueObject : MonoBehaviour, IInteractable, IClueProvider
             {
                 playerInventory.AddClue(GetClue());
                 Debug.Log($"{clueDetails.clueID} collected: {clueDetails.description}");// Log message to the console
-                gameObject.SetActive(false); // Hide the clue object
+               
                 return true;
             }
         }

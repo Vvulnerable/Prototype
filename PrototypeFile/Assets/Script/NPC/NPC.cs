@@ -7,7 +7,7 @@ public class NPC : MonoBehaviour, IInteractable
     public string[] conversations;
     private int currentConversationIndex = 0;
 
-    public string InteractionPrompt => "Talk to " + npcName;
+    public string InteractionPrompt => "Press E to Talk to " + npcName;
 
     public bool Interact(Interactor interactor)
     {

@@ -100,7 +100,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -120,4 +120,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clueDetails:
     clueID: Clue1
-    description: Your dad
+    description: 'Dad''s note: don''t be worry my child, I''m buying milk form a
+      far far away land'

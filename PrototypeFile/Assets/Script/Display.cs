@@ -5,45 +5,52 @@ using System.Collections;
 public class DebugDisplay : MonoBehaviour
 {
     public Text legacyText; // Reference to the Legacy Text component
-    public float displayDuration = 5f; // Duration in seconds to display the text
+    public float displayDuration = 2f; // Duration in seconds to display the text
+    private bool canClearText = false; // Flag to check if text can be cleared
 
     void Start()
     {
-        // Make sure you've assigned the Legacy Text component in the Unity Inspector
         if (legacyText == null)
         {
             Debug.LogError("Legacy Text component is not assigned.");
             return;
         }
 
-        // Clear the initial text in the Legacy Text component
         legacyText.text = "";
-
-        // Register for log message events
         Application.logMessageReceived += HandleLog;
     }
 
     void OnDestroy()
     {
-        // Unregister log message events when the GameObject is destroyed
         Application.logMessageReceived -= HandleLog;
     }
 
     void HandleLog(string logString, string stackTrace, LogType type)
     {
-        // Append the log message to the existing text in the Legacy Text component
-        legacyText.text += logString + "\n";
+        // Clear existing text and reset the flag
+        legacyText.text = "";
+        canClearText = false;
 
-        // Start a coroutine to hide the text after the specified duration
+        // Display new text
+        legacyText.text = logString + "\n";
+
+        // Stop any existing coroutine and start a new one for the new text
+        StopAllCoroutines();
         StartCoroutine(HideTextAfterDelay());
     }
 
     IEnumerator HideTextAfterDelay()
     {
-        // Wait for the specified duration
         yield return new WaitForSeconds(displayDuration);
+        canClearText = true; // After 2 seconds, allow text to be cleared
+    }
 
-        // Clear the text in the Legacy Text component
-        legacyText.text = "";
+    void Update()
+    {
+        if (canClearText && Input.GetKeyDown(KeyCode.E))
+        {
+            legacyText.text = ""; // Clear the text if 'E' is pressed after 2 seconds
+            canClearText = false; // Reset the flag
+        }
     }
 }

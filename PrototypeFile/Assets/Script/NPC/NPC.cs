@@ -7,7 +7,7 @@ public class NPC : MonoBehaviour, IInteractable
     public string[] conversations;
     private int currentConversationIndex = 0;
 
-    public string InteractionPrompt => "Talk to " + npcName;
+    public string InteractionPrompt => "Press E to Talk to " + npcName;
 
     public bool Interact(Interactor interactor)
     {
@@ -18,7 +18,7 @@ public class NPC : MonoBehaviour, IInteractable
         }
 
         // Display the current line of conversation
-        Debug.Log($"{npcName}: {conversations[currentConversationIndex]}");
+        Debug.Log($" {conversations[currentConversationIndex]}");
 
         // Move to the next line of conversation, looping back if at the end
         currentConversationIndex = (currentConversationIndex + 1) % conversations.Length;

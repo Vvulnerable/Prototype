@@ -63,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 73666b9f6b1ebe34781faa306a60a706, type: 2}
+  - {fileID: 2100000, guid: 444362f45be703d48b771c2934ef005c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -120,4 +120,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clueDetails:
     clueID: Clue3
-    description: 
+    content: []

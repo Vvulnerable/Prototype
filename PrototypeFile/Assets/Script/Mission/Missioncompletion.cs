@@ -1,26 +1,42 @@
 using System.Linq;
-using System.Reflection;
 using UnityEngine;
 
-public class MissionManager : MonoBehaviour
+public class MissionManager : MonoBehaviour, IInteractable
 {
     public Mission mission; // Define this in the inspector or through code
     private bool missionCompleted = false; // To track if the mission is already completed
 
-    void Update()
+    public string InteractionPrompt => "Press E to check Mission Status";
+
+    public bool Interact(Interactor interactor)
     {
         if (!missionCompleted)
         {
             Inventory playerInventory = FindObjectOfType<Inventory>();
-            if (playerInventory != null && playerInventory.CheckMissionCompletion(mission))
+            if (playerInventory != null)
             {
-                missionCompleted = true;
-
-                string combinedDescriptions = string.Join(" ", mission.requiredClues.Select(clueID => playerInventory.GetClueById(clueID)?.description));
-
-                // Log the completion message to the console
-                Debug.Log($"{mission.missionName} completed: {combinedDescriptions}");
+                if (playerInventory.CheckMissionCompletion(mission))
+                {
+                    missionCompleted = true;
+                    Debug.Log($"Mission Completed: {mission.missionName}. {mission.missionDescription}");
+                }
+                else
+                {
+                    DisplayMissingClues(playerInventory);
+                }
             }
         }
+        else
+        {
+            Debug.Log($"Mission already completed: {mission.missionName}");
+        }
+
+        return true;
+    }
+
+    private void DisplayMissingClues(Inventory playerInventory)
+    {
+        string missingClues = string.Join(", ", mission.requiredClues.Where(clueID => !playerInventory.HasClue(clueID)));
+        Debug.Log($"Mission: {mission.missionName}. Missing Clues: {missingClues}");
     }
 }

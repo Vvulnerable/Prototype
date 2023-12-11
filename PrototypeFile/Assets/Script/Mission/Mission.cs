@@ -5,6 +5,7 @@ using System.Linq;
 public class Mission
 {
     public string missionName;
+    public string missionDescription;
     public List<string> requiredClues; // List of clueIDs required to complete the mission
 
     public bool IsCompleted(List<Clue> playerClues)

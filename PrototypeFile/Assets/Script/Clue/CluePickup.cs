@@ -3,7 +3,7 @@ using UnityEngine;
 public class ClueObject : MonoBehaviour, IInteractable, IClueProvider
 {
     [SerializeField] private Clue clueDetails; // Assign this in the inspector
-    public string InteractionPrompt => "Pick up Clue"; // Example prompt
+    public string InteractionPrompt => " Press E to pick up Clue"; // Example prompt
 
     // Interact method from IInteractable
     public bool Interact(Interactor interactor)
@@ -15,8 +15,10 @@ public class ClueObject : MonoBehaviour, IInteractable, IClueProvider
             if (playerInventory != null)
             {
                 playerInventory.AddClue(GetClue());
-                Debug.Log($"{clueDetails.clueID} collected: {clueDetails.description}");// Log message to the console
-               
+                Debug.Log($"{clueDetails.clueID}: {clueDetails.GetCurrentContent()}"); // Log message to the console
+                clueDetails.NextContent();// Move to the next content
+
+
                 return true;
             }
         }

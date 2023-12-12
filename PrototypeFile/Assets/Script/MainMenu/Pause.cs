@@ -10,10 +10,6 @@ public class Pause : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape)) pause = true;
-
-
-
-
         if (pause) Time.timeScale = 0f;
         if (pause) pausemenu.SetActive(true);
         if (pause) Cursor.lockState = CursorLockMode.None;

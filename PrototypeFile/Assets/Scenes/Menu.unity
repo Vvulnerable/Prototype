@@ -1728,8 +1728,8 @@ MonoBehaviour:
   m_FillRect: {fileID: 43402991}
   m_HandleRect: {fileID: 1343226125}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
+  m_MinValue: 0.0001
+  m_MaxValue: 2
   m_WholeNumbers: 0
   m_Value: 0.5
   m_OnValueChanged:
@@ -1779,6 +1779,7 @@ MonoBehaviour:
   musicSource: {fileID: 1268708978}
   SFXSource: {fileID: 794550753}
   background: {fileID: 8300000, guid: 6c7e406c9465caa4ab6f0a037bfbf909, type: 3}
+  walking: {fileID: 8300000, guid: 231e376ff8cbfad488771467f8008cf8, type: 3}
 --- !u!4 &1671875846
 Transform:
   m_ObjectHideFlags: 0

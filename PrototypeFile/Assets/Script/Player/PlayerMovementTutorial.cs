@@ -21,7 +21,7 @@ public class PlayerMovementTutorial : MonoBehaviour
     [Header("Ground Check")]
     public float groundCheckRadius; // SphereCast radius for ground check
     public LayerMask whatIsGround;
-    bool grounded;
+    [SerializeField] bool grounded;
     public float coyoteTime = 0.2f; // Duration for coyote time
     private float coyoteTimeCounter; // Counter for coyote time
 

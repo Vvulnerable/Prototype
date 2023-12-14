@@ -120,6 +120,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clueDetails:
     clueID: Clue1
-    content:
-    - Dad's note 1
-    - Don't worry my child, I'm buying milk from a far far away land
+    description: 
+    content: []

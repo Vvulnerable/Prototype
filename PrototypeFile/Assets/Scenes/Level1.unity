@@ -100104,7 +100104,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4896420282782653701, guid: e0388517a4c75a84c939a22ead82435c, type: 3}
       propertyPath: mission.missionName
-      value: MissingDad
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4896420282782653701, guid: e0388517a4c75a84c939a22ead82435c, type: 3}
       propertyPath: descriptions.Array.size
@@ -100128,8 +100128,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4896420282782653701, guid: e0388517a4c75a84c939a22ead82435c, type: 3}
       propertyPath: mission.missionDescription
-      value: Your dad went missing for so long and everyone is worry about him, you
-        finally found him on top of the mountain
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4896420282782653701, guid: e0388517a4c75a84c939a22ead82435c, type: 3}
       propertyPath: mission.requiredClues.Array.size

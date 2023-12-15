@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: b51d48453f2790d4181b951a5db0efeb
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level1.unity
     guid: cdc5b3a45e416744794f71b2cfba69d3
   - enabled: 0
@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Harmonyville.unity
+    guid: 760cd50bf4184864ba05d4650047d389
+  - enabled: 1
+    path: Assets/Scenes/Puzzle.unity
+    guid: bd77379642e471846a0767e9f49d1e36
   m_configObjects: {}

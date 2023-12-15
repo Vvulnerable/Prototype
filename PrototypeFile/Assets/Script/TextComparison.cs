@@ -1,11 +1,19 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement; // Required for changing scenes
 
 public class TextComparisonPuzzle : MonoBehaviour
 {
-    public InputField[] playerInputFields;
-    public string[] preparedAnswers;
-    public float similarityThreshold = 0.5f;
+    public InputField[] playerInputFields;  // Array of player's input fields
+    public string[] preparedAnswers;        // Array of prepared answers
+    public float similarityThreshold = 0.5f; // Threshold for text similarity
+    public string nextSceneName;            // Name of the next scene to load
+
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
 
     public void CheckTextSimilarity()
     {
@@ -80,12 +88,17 @@ public class TextComparisonPuzzle : MonoBehaviour
     private void PuzzleCompleted()
     {
         Debug.Log("Complete");
-        // Perform any other actions when the puzzle is completed successfully
+        LoadNextScene(); // Call the function to load the next scene
     }
 
     private void PuzzleFailed()
     {
         Debug.Log("Fail");
         // Perform any other actions when the puzzle is not completed successfully
+    }
+
+    private void LoadNextScene()
+    {
+        SceneManager.LoadScene(nextSceneName); // Load the next scene
     }
 }

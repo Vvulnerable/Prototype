@@ -1,12 +1,20 @@
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement; // Required for changing scenes
 
 public class MissionManager : MonoBehaviour, IInteractable
 {
     public Mission mission; // Define this in the inspector or through code
     private bool missionCompleted = false; // To track if the mission is already completed
+    public string nextSceneName; // Name of the next scene to load
 
-    public string InteractionPrompt => "Press E to check Mission Status";
+    public string InteractionPrompt
+    {
+        get
+        {
+            return missionCompleted ? "Press E to Write Report" : "Press E to check Mission Status";
+        }
+    }
 
     public bool Interact(Interactor interactor)
     {
@@ -18,7 +26,8 @@ public class MissionManager : MonoBehaviour, IInteractable
                 if (playerInventory.CheckMissionCompletion(mission))
                 {
                     missionCompleted = true;
-                    Debug.Log($"Mission Completed: {mission.missionName}. {mission.missionDescription}");
+                    Debug.Log($"Clues Collected: {mission.missionName}. {mission.missionDescription}");
+                    // Additional code here if needed for when the mission is just completed
                 }
                 else
                 {
@@ -28,10 +37,16 @@ public class MissionManager : MonoBehaviour, IInteractable
         }
         else
         {
-            Debug.Log($"Mission already completed: {mission.missionName}");
+            Debug.Log("Writing Report...");
+            LoadNextScene();
         }
 
         return true;
+    }
+
+    private void LoadNextScene()
+    {
+        SceneManager.LoadScene(nextSceneName);
     }
 
     private void DisplayMissingClues(Inventory playerInventory)

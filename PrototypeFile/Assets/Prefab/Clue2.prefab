@@ -120,5 +120,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clueDetails:
     clueID: Clue2
-    description: 'Dad''s note: take care of the house when I''m away (your house
-      is at the base of the mountain'
+    description: 
+    content: []

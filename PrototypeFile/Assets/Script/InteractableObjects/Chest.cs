@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class Chest : MonoBehaviour, IInteractable
 {
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
     [SerializeField] private string _prompt;
     [SerializeField] private GameObject cubePrefab; // Reference to the cube prefab you want to spawn
 
@@ -14,7 +21,7 @@ public class Chest : MonoBehaviour, IInteractable
     public bool Interact(Interactor interactor)
     {
         Debug.Log("Interacting with chest");
-
+        audioManager.PlaySFX(audioManager.chest);
         // Check if the cube has already been spawned
         if (!cubeSpawned)
         {

@@ -5,23 +5,41 @@ using UnityEngine;
 public class Pause : MonoBehaviour
 {
     [SerializeField] GameObject pausemenu;
-    public bool pause = false;
+    public bool isPaused = false;
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape)) pause = true;
-        if (pause) Time.timeScale = 0f;
-        if (pause) pausemenu.SetActive(true);
-        if (pause) Cursor.lockState = CursorLockMode.None;
-        if (pause) Cursor.visible = true;
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            TogglePause();
+        }
+    }
+
+    private void TogglePause()
+    {
+        isPaused = !isPaused;  // Toggle the pause state
+
+        if (isPaused)
+        {
+            // Pause the game
+            Time.timeScale = 0f;
+            pausemenu.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
+        else
+        {
+            // Resume the game
+            Resume();
+        }
     }
 
     public void Resume()
     {
-        pause = false;
+        isPaused = false;
         pausemenu.SetActive(false);
         Time.timeScale = 1f;
-        Cursor.lockState = CursorLockMode.Locked;   
+        Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
 

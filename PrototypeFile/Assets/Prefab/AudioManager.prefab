@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5741740935892297075}
   m_Layer: 0
   m_Name: AudioManager
-  m_TagString: Audio
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSource: {fileID: 5399730844392607116}
   SFXSource: {fileID: 3009158553176673592}
-  background: {fileID: 8300000, guid: 6c7e406c9465caa4ab6f0a037bfbf909, type: 3}
+  background: {fileID: 8300000, guid: ab960b6b30835a44d9220d03118234f5, type: 3}
   chest: {fileID: 8300000, guid: a0ece335f4ecb914fb1645146a793de5, type: 3}
 --- !u!1 &8375342323446786089
 GameObject:
@@ -92,9 +92,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -4767160224518313894, guid: c60403cbf16a5d14788a63b1dba859a0, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 6c7e406c9465caa4ab6f0a037bfbf909, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ab960b6b30835a44d9220d03118234f5, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -219,10 +219,10 @@ AudioSource:
   m_GameObject: {fileID: 8444741073029085226}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -5158294801173613392, guid: c60403cbf16a5d14788a63b1dba859a0, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0

@@ -44,8 +44,7 @@ public class InputFieldController : MonoBehaviour
             // Resume the game and save the input field data
             Time.timeScale = 1;
             SaveInputFieldData();
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false; 
+            
         }
     }
 

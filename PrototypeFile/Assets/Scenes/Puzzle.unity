@@ -804,7 +804,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4600651290531541993, guid: 995797a0bdefd954b873ebc0fa107fcf, type: 3}
       propertyPath: similarityThreshold
-      value: 0.5
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 4600651290531541993, guid: 995797a0bdefd954b873ebc0fa107fcf, type: 3}
       propertyPath: preparedAnswers.Array.size

@@ -15,7 +15,7 @@ public class ClueObject : MonoBehaviour, IInteractable, IClueProvider
             if (playerInventory != null)
             {
                 playerInventory.AddClue(GetClue());
-                Debug.Log($"{clueDetails.clueID}: {clueDetails.GetCurrentContent()}"); // Log message to the console
+                Debug.Log($" {clueDetails.GetCurrentContent()}"); // Log message to the console
                 clueDetails.NextContent();// Move to the next content
 
 

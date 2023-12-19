@@ -52,6 +52,6 @@ public class MissionManager : MonoBehaviour, IInteractable
     private void DisplayMissingClues(Inventory playerInventory)
     {
         string missingClues = string.Join(", ", mission.requiredClues.Where(clueID => !playerInventory.HasClue(clueID)));
-        Debug.Log($"Mission: {mission.missionName}. Missing Clues: {missingClues}");
+        Debug.Log($"Mission: {mission.missionName}. Missing Clues: {missingClues}. The clues are hidden around the town, when you find all the clues required, you can comback here to write the paper");
     }
 }

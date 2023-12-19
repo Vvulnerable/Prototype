@@ -778,6 +778,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: Tutorial Mission
       objectReference: {fileID: 0}
+    - target: {fileID: 2468276156534287880, guid: 995797a0bdefd954b873ebc0fa107fcf, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 2505099910672494544, guid: 995797a0bdefd954b873ebc0fa107fcf, type: 3}
       propertyPath: m_Text
       value: Clue2(type info you get from clue2)

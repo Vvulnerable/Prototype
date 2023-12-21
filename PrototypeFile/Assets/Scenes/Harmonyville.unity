@@ -978,11 +978,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 215448701982227513, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000017091043
+      value: 0.000000017091043
       objectReference: {fileID: 0}
     - target: {fileID: 215448701982227513, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000019889252
+      value: -0.0000000019889252
       objectReference: {fileID: 0}
     - target: {fileID: 517736748455986804, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
       propertyPath: m_IsActive
@@ -1058,11 +1058,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4713713714634047300, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.00000003418209
+      value: 0.00000003418209
       objectReference: {fileID: 0}
     - target: {fileID: 4713713714634047300, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000003977852
+      value: -0.000000003977852
       objectReference: {fileID: 0}
     - target: {fileID: 5842390964722767482, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
       propertyPath: m_Avatar
@@ -1072,6 +1072,22 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: b2d19f82fad5e9347bfffb8f7afbc033, type: 2}
+    - target: {fileID: 6155991125585039312, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
+      propertyPath: m_Size.y
+      value: 2.1806004
+      objectReference: {fileID: 0}
+    - target: {fileID: 6155991125585039312, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
+      propertyPath: m_Size.z
+      value: 0.5406823
+      objectReference: {fileID: 0}
+    - target: {fileID: 6155991125585039312, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
+      propertyPath: m_Center.y
+      value: 0.3466605
+      objectReference: {fileID: 0}
+    - target: {fileID: 6155991125585039312, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
+      propertyPath: m_Center.z
+      value: 0.05961299
+      objectReference: {fileID: 0}
     - target: {fileID: 6208275083426920303, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
       propertyPath: animator
       value: 

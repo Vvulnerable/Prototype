@@ -72,6 +72,15 @@ public class PlayerMovementTutorial : MonoBehaviour
         UpdateWalkingAnimation();
     }
 
+    private void OnDrawGizmos()
+    {
+        // Set the color of the Gizmo
+        Gizmos.color = Color.yellow;
+
+        // Draw a wire sphere at the ground check position
+        Gizmos.DrawWireSphere(transform.position, groundCheckRadius);
+    }
+
     private void FixedUpdate()
     {
         MovePlayer();

@@ -978,11 +978,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 215448701982227513, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000017091047
+      value: -0.00000001709104
       objectReference: {fileID: 0}
     - target: {fileID: 215448701982227513, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0000000019889261
+      value: 0.0000000019889252
       objectReference: {fileID: 0}
     - target: {fileID: 1332824566937116762, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1050,11 +1050,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4713713714634047300, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.00000003418209
+      value: -0.000000034182086
       objectReference: {fileID: 0}
     - target: {fileID: 4713713714634047300, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000003977852
+      value: 0.0000000039778514
       objectReference: {fileID: 0}
     - target: {fileID: 8261002175460714443, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2719,13 +2719,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!4 &289016152 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2079815201124184256, guid: 4c56dfbc71f5da64089036c38eb00336, type: 3}
+  m_PrefabInstance: {fileID: 603255172}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &299134642
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1187781292}
     m_Modifications:
     - target: {fileID: 2079815201124184256, guid: 9582ea3c415bec04793e4b1dfe71b305, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2745,15 +2750,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2079815201124184256, guid: 9582ea3c415bec04793e4b1dfe71b305, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2079815201124184256, guid: 9582ea3c415bec04793e4b1dfe71b305, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2079815201124184256, guid: 9582ea3c415bec04793e4b1dfe71b305, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2079815201124184256, guid: 9582ea3c415bec04793e4b1dfe71b305, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2773,12 +2778,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3847143916653285682, guid: 9582ea3c415bec04793e4b1dfe71b305, type: 3}
       propertyPath: clueDetails.content.Array.data[0]
-      value: 'funny '
+      value: The town is suffering air pollution
       objectReference: {fileID: 0}
     - target: {fileID: 3847143916653285682, guid: 9582ea3c415bec04793e4b1dfe71b305, type: 3}
       propertyPath: clueDetails.content.Array.data[1]
       value: Clue 1 is obtained, a small reminder, the information provide by this
-        clue is "funny"
+        clue is "the town is suffering air pollution"
       objectReference: {fileID: 0}
     - target: {fileID: 3847143916653285682, guid: 9582ea3c415bec04793e4b1dfe71b305, type: 3}
       propertyPath: clueDetails.content.Array.data[2]
@@ -4738,7 +4743,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1913643764}
     m_Modifications:
     - target: {fileID: 1111013873332087425, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
       propertyPath: m_Enabled
@@ -4762,15 +4767,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1252732811580633860, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1252732811580633860, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1252732811580633860, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1252732811580633860, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -5912,7 +5917,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1187781292}
     m_Modifications:
     - target: {fileID: 2079815201124184256, guid: 4c56dfbc71f5da64089036c38eb00336, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5932,15 +5937,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2079815201124184256, guid: 4c56dfbc71f5da64089036c38eb00336, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2079815201124184256, guid: 4c56dfbc71f5da64089036c38eb00336, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2079815201124184256, guid: 4c56dfbc71f5da64089036c38eb00336, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2079815201124184256, guid: 4c56dfbc71f5da64089036c38eb00336, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -5960,11 +5965,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3847143916653285682, guid: 4c56dfbc71f5da64089036c38eb00336, type: 3}
       propertyPath: clueDetails.content.Array.data[0]
-      value: happy
+      value: people feeling sick
       objectReference: {fileID: 0}
     - target: {fileID: 3847143916653285682, guid: 4c56dfbc71f5da64089036c38eb00336, type: 3}
       propertyPath: clueDetails.content.Array.data[1]
-      value: 'Clue2 obtained, reminder: "happy"'
+      value: 'Clue2 obtained, reminder: "people feeling sick"'
       objectReference: {fileID: 0}
     - target: {fileID: 5383267135012829904, guid: 4c56dfbc71f5da64089036c38eb00336, type: 3}
       propertyPath: m_Name
@@ -20937,7 +20942,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1913643764}
     m_Modifications:
     - target: {fileID: 1111013873332087425, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
       propertyPath: m_Enabled
@@ -22549,6 +22554,40 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!1 &1187781291
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1187781292}
+  m_Layer: 0
+  m_Name: Clues
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1187781292
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187781291}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1506977815}
+  - {fileID: 289016152}
+  - {fileID: 2081844933}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1188166848 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4802777352948978784, guid: bad05c1119bb25a489d0e3bedef6ef45, type: 3}
@@ -23286,7 +23325,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6465276801056950139, guid: a3746cdb6c2967145a71c26634a46ba2, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25980,6 +26019,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!4 &1506977815 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2079815201124184256, guid: 9582ea3c415bec04793e4b1dfe71b305, type: 3}
+  m_PrefabInstance: {fileID: 299134642}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1506981029 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6013380655317410296, guid: bad05c1119bb25a489d0e3bedef6ef45, type: 3}
@@ -27790,7 +27834,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4896420282782653701, guid: e0388517a4c75a84c939a22ead82435c, type: 3}
       propertyPath: mission.missionName
-      value: Tutorial
+      value: Tutorial (air pollution problem)
       objectReference: {fileID: 0}
     - target: {fileID: 4896420282782653701, guid: e0388517a4c75a84c939a22ead82435c, type: 3}
       propertyPath: mission.missionDescription
@@ -29660,6 +29704,39 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!1 &1913643763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1913643764}
+  m_Layer: 0
+  m_Name: NPCs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1913643764
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913643763}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1054339261}
+  - {fileID: 481951346}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1913659528 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8711518391676517567, guid: bad05c1119bb25a489d0e3bedef6ef45, type: 3}
@@ -31695,7 +31772,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1187781292}
     m_Modifications:
     - target: {fileID: 2079815201124184256, guid: 43a65719878c4194384a64562f50b0b0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31715,15 +31792,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2079815201124184256, guid: 43a65719878c4194384a64562f50b0b0, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2079815201124184256, guid: 43a65719878c4194384a64562f50b0b0, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2079815201124184256, guid: 43a65719878c4194384a64562f50b0b0, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2079815201124184256, guid: 43a65719878c4194384a64562f50b0b0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -31743,7 +31820,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3847143916653285682, guid: 43a65719878c4194384a64562f50b0b0, type: 3}
       propertyPath: clueDetails.content.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3847143916653285682, guid: 43a65719878c4194384a64562f50b0b0, type: 3}
       propertyPath: clueDetails.content.Array.data[0]
@@ -31751,15 +31828,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3847143916653285682, guid: 43a65719878c4194384a64562f50b0b0, type: 3}
       propertyPath: clueDetails.content.Array.data[1]
-      value: 'You: Hi, tell me something cool'
+      value: 'You: Hi, what''s happening here'
       objectReference: {fileID: 0}
     - target: {fileID: 3847143916653285682, guid: 43a65719878c4194384a64562f50b0b0, type: 3}
       propertyPath: clueDetails.content.Array.data[2]
-      value: 'James: The word I''m gonna tell you is "joy"'
+      value: 'James:  Vehicles are emitting too much harmful gas'
       objectReference: {fileID: 0}
     - target: {fileID: 3847143916653285682, guid: 43a65719878c4194384a64562f50b0b0, type: 3}
       propertyPath: clueDetails.content.Array.data[3]
-      value: Clue3 obtained, "joy"
+      value: I suggest people should use bike and walk more
+      objectReference: {fileID: 0}
+    - target: {fileID: 3847143916653285682, guid: 43a65719878c4194384a64562f50b0b0, type: 3}
+      propertyPath: clueDetails.content.Array.data[4]
+      value: Clue3 obtained, "use bike and walk more"
       objectReference: {fileID: 0}
     - target: {fileID: 5383267135012829904, guid: 43a65719878c4194384a64562f50b0b0, type: 3}
       propertyPath: m_Name
@@ -32682,14 +32763,11 @@ SceneRoots:
   - {fileID: 91322369}
   - {fileID: 379802305}
   - {fileID: 1657546075}
-  - {fileID: 1054339260}
-  - {fileID: 299134642}
-  - {fileID: 603255172}
-  - {fileID: 2081844932}
   - {fileID: 626154127}
   - {fileID: 185091925}
   - {fileID: 778687835}
   - {fileID: 788439066}
   - {fileID: 896293306}
-  - {fileID: 481951345}
   - {fileID: 1251524261}
+  - {fileID: 1187781292}
+  - {fileID: 1913643764}

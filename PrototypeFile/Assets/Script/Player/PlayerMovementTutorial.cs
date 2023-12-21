@@ -25,6 +25,9 @@ public class PlayerMovementTutorial : MonoBehaviour
     public float coyoteTime = 0.2f; // Duration for coyote time
     private float coyoteTimeCounter; // Counter for coyote time
 
+    [Header("Animation")]
+    public Animator animator; // Reference to the Animator component
+
     public Transform orientation;
 
     float horizontalInput;
@@ -64,6 +67,18 @@ public class PlayerMovementTutorial : MonoBehaviour
             rb.drag = groundDrag;
         else
             rb.drag = 0;
+
+        // Update animation
+        UpdateWalkingAnimation();
+    }
+
+    private void OnDrawGizmos()
+    {
+        // Set the color of the Gizmo
+        Gizmos.color = Color.yellow;
+
+        // Draw a wire sphere at the ground check position
+        Gizmos.DrawWireSphere(transform.position, groundCheckRadius);
     }
 
     private void FixedUpdate()
@@ -93,8 +108,16 @@ public class PlayerMovementTutorial : MonoBehaviour
         }
     }
 
+    private void UpdateWalkingAnimation()
+    {
+        // Check if there is any movement input
+        bool isMoving = horizontalInput != 0 || verticalInput != 0;
+        animator.SetBool("Walking", isMoving);
+    }
+
     private void MovePlayer()
     {
+        
         // Calculate movement direction
         moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
 

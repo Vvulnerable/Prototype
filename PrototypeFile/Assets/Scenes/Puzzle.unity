@@ -689,6 +689,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Note
       objectReference: {fileID: 0}
+    - target: {fileID: 6465276801056950139, guid: a3746cdb6c2967145a71c26634a46ba2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -772,11 +776,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 898568388558295873, guid: 995797a0bdefd954b873ebc0fa107fcf, type: 3}
       propertyPath: m_Text
-      value: a
+      value: Outdated vehicles emitting too much harmful gas
       objectReference: {fileID: 0}
     - target: {fileID: 2331318917683378310, guid: 995797a0bdefd954b873ebc0fa107fcf, type: 3}
       propertyPath: m_Text
-      value: Tutorial Mission
+      value: Tutorial Mission (Air Pollution)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2367949848432109376, guid: 995797a0bdefd954b873ebc0fa107fcf, type: 3}
+      propertyPath: m_Text
+      value: Some people in town are concerning about the ai
+      objectReference: {fileID: 0}
+    - target: {fileID: 2367949848432109376, guid: 995797a0bdefd954b873ebc0fa107fcf, type: 3}
+      propertyPath: m_FontData.m_VerticalOverflow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2367949848432109376, guid: 995797a0bdefd954b873ebc0fa107fcf, type: 3}
+      propertyPath: m_FontData.m_HorizontalOverflow
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2468276156534287880, guid: 995797a0bdefd954b873ebc0fa107fcf, type: 3}
       propertyPath: m_SortingOrder
@@ -800,7 +816,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3642341818367571500, guid: 995797a0bdefd954b873ebc0fa107fcf, type: 3}
       propertyPath: m_Text
-      value: This game is easy
+      value: 'Some people are concerned about the air quality '
       objectReference: {fileID: 0}
     - target: {fileID: 4600651290531541993, guid: 995797a0bdefd954b873ebc0fa107fcf, type: 3}
       propertyPath: similarityThreshold
@@ -816,15 +832,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4600651290531541993, guid: 995797a0bdefd954b873ebc0fa107fcf, type: 3}
       propertyPath: preparedAnswers.Array.data[0]
-      value: funny
+      value: the town is suffering air pollution
       objectReference: {fileID: 0}
     - target: {fileID: 4600651290531541993, guid: 995797a0bdefd954b873ebc0fa107fcf, type: 3}
       propertyPath: preparedAnswers.Array.data[1]
-      value: happy
+      value: people feeling sick
       objectReference: {fileID: 0}
     - target: {fileID: 4600651290531541993, guid: 995797a0bdefd954b873ebc0fa107fcf, type: 3}
       propertyPath: preparedAnswers.Array.data[2]
-      value: joy
+      value: use bike and walk more
       objectReference: {fileID: 0}
     - target: {fileID: 4600651290531541993, guid: 995797a0bdefd954b873ebc0fa107fcf, type: 3}
       propertyPath: playerInputFields.Array.data[0]

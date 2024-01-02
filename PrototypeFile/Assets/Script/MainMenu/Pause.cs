@@ -39,8 +39,7 @@ public class Pause : MonoBehaviour
         isPaused = false;
         pausemenu.SetActive(false);
         Time.timeScale = 1f;
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        
     }
 
     public void QuitGame()

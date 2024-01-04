@@ -858,6 +858,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 24416104754682197, guid: 692ecef3ca4f3994e84b39310f16f375, type: 3}
+      propertyPath: m_Text
+      value: Harmonyville car accident
+      objectReference: {fileID: 0}
+    - target: {fileID: 1880935007597060121, guid: 692ecef3ca4f3994e84b39310f16f375, type: 3}
+      propertyPath: m_Text
+      value: Harmonyville economic crisis
+      objectReference: {fileID: 0}
     - target: {fileID: 2667717896524443067, guid: 692ecef3ca4f3994e84b39310f16f375, type: 3}
       propertyPath: m_Options.m_Options.Array.size
       value: 3
@@ -881,6 +889,14 @@ PrefabInstance:
     - target: {fileID: 3420852820126350299, guid: 692ecef3ca4f3994e84b39310f16f375, type: 3}
       propertyPath: correctAnswers.Array.data[4]
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3645047778373126453, guid: 692ecef3ca4f3994e84b39310f16f375, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3673745971542066068, guid: 692ecef3ca4f3994e84b39310f16f375, type: 3}
+      propertyPath: m_Text
+      value: You can't see any pollution in Harmonyville
       objectReference: {fileID: 0}
     - target: {fileID: 3799010668492808772, guid: 692ecef3ca4f3994e84b39310f16f375, type: 3}
       propertyPath: m_Name

@@ -1074,11 +1074,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3867139258937464036, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.00000003418209
+      value: 0.00000003418209
       objectReference: {fileID: 0}
     - target: {fileID: 3867139258937464036, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000003977852
+      value: -0.000000003977852
       objectReference: {fileID: 0}
     - target: {fileID: 4713713714634047300, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1150,11 +1150,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8520179921185757081, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000017091043
+      value: 0.000000017091043
       objectReference: {fileID: 0}
     - target: {fileID: 8520179921185757081, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000019889252
+      value: -0.0000000019889252
       objectReference: {fileID: 0}
     - target: {fileID: 8529437580412709900, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27580,7 +27580,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4896420282782653701, guid: e0388517a4c75a84c939a22ead82435c, type: 3}
       propertyPath: nextSceneName
-      value: Puzzle
+      value: EndGame
       objectReference: {fileID: 0}
     - target: {fileID: 4896420282782653701, guid: e0388517a4c75a84c939a22ead82435c, type: 3}
       propertyPath: mission.missionName

@@ -1098,15 +1098,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3867139258937464036, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.11559235
+      value: 0.115592346
       objectReference: {fileID: 0}
     - target: {fileID: 3867139258937464036, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.00000007171184
       objectReference: {fileID: 0}
     - target: {fileID: 3867139258937464036, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -5.820766e-11
+      value: 0.000000008381903
       objectReference: {fileID: 0}
     - target: {fileID: 4713713714634047300, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1226,11 +1226,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8393118492543365866, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000033527613
+      value: -0.00000005029142
       objectReference: {fileID: 0}
     - target: {fileID: 8393118492543365866, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000045401976
+      value: 0.0000000069849193
       objectReference: {fileID: 0}
     - target: {fileID: 8520179921185757081, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1246,15 +1246,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8520179921185757081, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.115592346
+      value: 0.11559234
       objectReference: {fileID: 0}
     - target: {fileID: 8520179921185757081, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000012572855
+      value: -0.00000004284084
       objectReference: {fileID: 0}
     - target: {fileID: 8520179921185757081, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000015716068
+      value: 0.000000005180482
       objectReference: {fileID: 0}
     - target: {fileID: 8529437580412709900, guid: 211648d7ad5923f4fb497bfea71e8a6a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2907,21 +2907,24 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: 444362f45be703d48b771c2934ef005c, type: 2}
     - target: {fileID: 3847143916653285682, guid: 9582ea3c415bec04793e4b1dfe71b305, type: 3}
+      propertyPath: clueDetails.clueID
+      value: RedNote
+      objectReference: {fileID: 0}
+    - target: {fileID: 3847143916653285682, guid: 9582ea3c415bec04793e4b1dfe71b305, type: 3}
       propertyPath: clueDetails.content.Array.size
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3847143916653285682, guid: 9582ea3c415bec04793e4b1dfe71b305, type: 3}
       propertyPath: clueDetails.content.Array.data[0]
-      value: The town is suffering air pollution
+      value: 'Clue1: A note "Harmonyville''s air qualiy crisis"'
       objectReference: {fileID: 0}
     - target: {fileID: 3847143916653285682, guid: 9582ea3c415bec04793e4b1dfe71b305, type: 3}
       propertyPath: clueDetails.content.Array.data[1]
-      value: Clue 1 is obtained, a small reminder, the information provide by this
-        clue is "the town is suffering air pollution"
+      value: A graph showing the air quality of the town over the years
       objectReference: {fileID: 0}
     - target: {fileID: 3847143916653285682, guid: 9582ea3c415bec04793e4b1dfe71b305, type: 3}
       propertyPath: clueDetails.content.Array.data[2]
-      value: remember the information, you need it to write the paper.
+      value: A picture of a traffic jam in town and vehicles releasing CO2
       objectReference: {fileID: 0}
     - target: {fileID: 5383267135012829904, guid: 9582ea3c415bec04793e4b1dfe71b305, type: 3}
       propertyPath: m_Name
@@ -6115,16 +6118,21 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3847143916653285682, guid: 4c56dfbc71f5da64089036c38eb00336, type: 3}
+      propertyPath: clueDetails.clueID
+      value: BrownPoster
+      objectReference: {fileID: 0}
+    - target: {fileID: 3847143916653285682, guid: 4c56dfbc71f5da64089036c38eb00336, type: 3}
       propertyPath: clueDetails.content.Array.size
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3847143916653285682, guid: 4c56dfbc71f5da64089036c38eb00336, type: 3}
       propertyPath: clueDetails.content.Array.data[0]
-      value: people feeling sick
+      value: 'Clue2: a poster that shows Harmonyville clear sky in the past and compare
+        it with the current state of the town'
       objectReference: {fileID: 0}
     - target: {fileID: 3847143916653285682, guid: 4c56dfbc71f5da64089036c38eb00336, type: 3}
       propertyPath: clueDetails.content.Array.data[1]
-      value: 'Clue2 obtained, reminder: "people feeling sick"'
+      value: Join the fight against air pollution to save the town
       objectReference: {fileID: 0}
     - target: {fileID: 5383267135012829904, guid: 4c56dfbc71f5da64089036c38eb00336, type: 3}
       propertyPath: m_Name
@@ -9292,7 +9300,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bad05c1119bb25a489d0e3bedef6ef45, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.5
+      value: -3.1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bad05c1119bb25a489d0e3bedef6ef45, type: 3}
       propertyPath: m_LocalPosition.z
@@ -27875,15 +27883,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4896420282782653701, guid: e0388517a4c75a84c939a22ead82435c, type: 3}
       propertyPath: mission.requiredClues.Array.data[0]
-      value: Clue1
+      value: RedNote
       objectReference: {fileID: 0}
     - target: {fileID: 4896420282782653701, guid: e0388517a4c75a84c939a22ead82435c, type: 3}
       propertyPath: mission.requiredClues.Array.data[1]
-      value: Clue2
+      value: BrownPoster
       objectReference: {fileID: 0}
     - target: {fileID: 4896420282782653701, guid: e0388517a4c75a84c939a22ead82435c, type: 3}
       propertyPath: mission.requiredClues.Array.data[2]
-      value: Clue3
+      value: James
       objectReference: {fileID: 0}
     - target: {fileID: 4896420282782653701, guid: e0388517a4c75a84c939a22ead82435c, type: 3}
       propertyPath: mission.requiredClues.Array.data[3]
@@ -32127,8 +32135,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3847143916653285682, guid: 43a65719878c4194384a64562f50b0b0, type: 3}
+      propertyPath: clueDetails.clueID
+      value: James
+      objectReference: {fileID: 0}
+    - target: {fileID: 3847143916653285682, guid: 43a65719878c4194384a64562f50b0b0, type: 3}
       propertyPath: clueDetails.content.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3847143916653285682, guid: 43a65719878c4194384a64562f50b0b0, type: 3}
       propertyPath: clueDetails.content.Array.data[0]
@@ -32144,11 +32156,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3847143916653285682, guid: 43a65719878c4194384a64562f50b0b0, type: 3}
       propertyPath: clueDetails.content.Array.data[3]
-      value: I suggest people should use bike and walk more
+      value: 'James: Everyone is feeling sick breathing under this air'
       objectReference: {fileID: 0}
     - target: {fileID: 3847143916653285682, guid: 43a65719878c4194384a64562f50b0b0, type: 3}
       propertyPath: clueDetails.content.Array.data[4]
-      value: Clue3 obtained, "use bike and walk more"
+      value: 'James: I''m really concerned about this problem, my child has respiratory
+        sickness'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3847143916653285682, guid: 43a65719878c4194384a64562f50b0b0, type: 3}
+      propertyPath: clueDetails.content.Array.data[5]
+      value: 'James: I suggest people should use bike, walk more, the town should
+        improve the public transporation system to reduce the number of vehicles
+        and the amount of CO2'
       objectReference: {fileID: 0}
     - target: {fileID: 5383267135012829904, guid: 43a65719878c4194384a64562f50b0b0, type: 3}
       propertyPath: m_Name

@@ -3,7 +3,8 @@ using UnityEngine;
 public class ClueObject : MonoBehaviour, IInteractable, IClueProvider
 {
     [SerializeField] private Clue clueDetails; // Assign this in the inspector
-    public string InteractionPrompt => " Press E to pick up Clue"; // Example prompt
+    public string InteractionPrompt => $"Press E to interact with {clueDetails.clueID}";
+
 
     // Interact method from IInteractable
     public bool Interact(Interactor interactor)

@@ -113,6 +113,8 @@ public class PlayerMovementTutorial : MonoBehaviour
         // Check if there is any movement input
         bool isMoving = horizontalInput != 0 || verticalInput != 0;
         animator.SetBool("Walking", isMoving);
+
+
     }
 
     private void MovePlayer()

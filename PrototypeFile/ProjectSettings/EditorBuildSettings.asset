@@ -16,8 +16,5 @@ EditorBuildSettings:
     guid: bd77379642e471846a0767e9f49d1e36
   - enabled: 1
     path: Assets/Scenes/Harmonyville2.unity
-    guid: 03993765e7a55fb4b8b669c99088f8d2
-  - enabled: 1
-    path: Assets/Scenes/EndGame.unity
-    guid: 3aca650d187414945988ffb418cc1dd7
+    guid: 6f79b5f797fbffc469114ca2db270e4f
   m_configObjects: {}

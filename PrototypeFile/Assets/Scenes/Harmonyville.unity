@@ -1556,16 +1556,24 @@ PrefabInstance:
       value: 0.03435672
       objectReference: {fileID: 0}
     - target: {fileID: 1799687508117247962, guid: 4ba9fbe2d07d5484ab86dd2e2830cb48, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.25630093
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799687508117247962, guid: 4ba9fbe2d07d5484ab86dd2e2830cb48, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.399229
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799687508117247962, guid: 4ba9fbe2d07d5484ab86dd2e2830cb48, type: 3}
       propertyPath: m_LocalPosition.z
       value: -5.103685
       objectReference: {fileID: 0}
     - target: {fileID: 1799687508117247962, guid: 4ba9fbe2d07d5484ab86dd2e2830cb48, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.00000007683411
+      value: -0.000000007916242
       objectReference: {fileID: 0}
     - target: {fileID: 1799687508117247962, guid: 4ba9fbe2d07d5484ab86dd2e2830cb48, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.00000000896398
+      value: 8.731149e-10
       objectReference: {fileID: 0}
     - target: {fileID: 2710110558369076522, guid: 4ba9fbe2d07d5484ab86dd2e2830cb48, type: 3}
       propertyPath: m_TargetTexture
@@ -1581,15 +1589,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3444437529752929426, guid: 4ba9fbe2d07d5484ab86dd2e2830cb48, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.092521034
+      value: 0.09252103
       objectReference: {fileID: 0}
     - target: {fileID: 3444437529752929426, guid: 4ba9fbe2d07d5484ab86dd2e2830cb48, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000059604645
+      value: -0.00000002514571
       objectReference: {fileID: 0}
     - target: {fileID: 3444437529752929426, guid: 4ba9fbe2d07d5484ab86dd2e2830cb48, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000055879354
+      value: 0.000000002386514
       objectReference: {fileID: 0}
     - target: {fileID: 5470918101809498308, guid: 4ba9fbe2d07d5484ab86dd2e2830cb48, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1629,11 +1637,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6424745674757714388, guid: 4ba9fbe2d07d5484ab86dd2e2830cb48, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.00000005075708
+      value: -0.000000033527613
       objectReference: {fileID: 0}
     - target: {fileID: 6424745674757714388, guid: 4ba9fbe2d07d5484ab86dd2e2830cb48, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000069849193
+      value: 0.0000000045401976
       objectReference: {fileID: 0}
     - target: {fileID: 6588434843310707879, guid: 4ba9fbe2d07d5484ab86dd2e2830cb48, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1641,11 +1649,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6588434843310707879, guid: 4ba9fbe2d07d5484ab86dd2e2830cb48, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000059604645
+      value: -0.000000024214387
       objectReference: {fileID: 0}
     - target: {fileID: 6588434843310707879, guid: 4ba9fbe2d07d5484ab86dd2e2830cb48, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000007043127
+      value: 0.000000002910383
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10330,6 +10338,46 @@ PrefabInstance:
     - target: {fileID: 3371307079225704793, guid: 2e179febeb8ff6a4886f5bad8641fde0, type: 3}
       propertyPath: m_Name
       value: PauseMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 3916426252516628100, guid: 2e179febeb8ff6a4886f5bad8641fde0, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3916426252516628100, guid: 2e179febeb8ff6a4886f5bad8641fde0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5498070679757049562, guid: 2e179febeb8ff6a4886f5bad8641fde0, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5498070679757049562, guid: 2e179febeb8ff6a4886f5bad8641fde0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6129213178714837143, guid: 2e179febeb8ff6a4886f5bad8641fde0, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6129213178714837143, guid: 2e179febeb8ff6a4886f5bad8641fde0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6129213178714837143, guid: 2e179febeb8ff6a4886f5bad8641fde0, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851043728939812210, guid: 2e179febeb8ff6a4886f5bad8641fde0, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851043728939812210, guid: 2e179febeb8ff6a4886f5bad8641fde0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851043728939812210, guid: 2e179febeb8ff6a4886f5bad8641fde0, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33171,8 +33219,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2431433586566520866, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
       propertyPath: conversations.Array.data[0]
-      value: 'Billy: Hi, Welcome to Harmonyville (Press E to continue interaction,
-        the same thing apply for every interactable objects in the game)'
+      value: 'Billy:  Welcome to Harmonyville (Press E to continue interaction, the
+        same thing apply for every interactable objects in the game)'
       objectReference: {fileID: 0}
     - target: {fileID: 2431433586566520866, guid: c4db0084903ac5b4c804a55f91d74143, type: 3}
       propertyPath: conversations.Array.data[1]
